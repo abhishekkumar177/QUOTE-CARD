@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d79716;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote-card {
+    background-color: #edf26d;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(164, 183, 94, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #1128d9;
+    margin-bottom: 20px;
+}
+
+.quote-author {
+    font-size: 18px;
+    color: #f24d11;
+}
+
+@media (max-width: 768px) {
+    .quote-card {
+        padding: 20px;
+    }
+
+    .quote-text {
+        font-size: 20px;
+    }
+
+    .quote-author {
+        font-size: 16px;
+    }
+}
